@@ -122,7 +122,6 @@ int main(void){
 
 }
 
-/// Written by David McLaughlin. 
 void adc_init(void){
     ADMUX = 0xC0; // Chose PC0 
     ADCSRA = 0x87; // enable ADC at 8*16+7*1=135 KHz
