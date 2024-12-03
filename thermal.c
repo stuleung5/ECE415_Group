@@ -1,6 +1,6 @@
 /*
 
-Bryan Leung, ECE 231, Project 2: Temperature Sensing
+Bryan Leung
 
 In this project, I sensed the temperature by first using adc_init and get_adc to return the digital values of the thermal sensor 
 in terms of DC voltage. Then, I do mathematical conversions to go from digital values to float based Farenheit and Celsius values. 
